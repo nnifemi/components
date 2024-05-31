@@ -1,0 +1,151 @@
+/* Global styles */
+body {
+    background-color: #181720; 
+    font-family: Inter, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #555;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #181720;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #282732;
+}
+
+/* Header styles */
+header {
+    background-color: #181720; 
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+}
+
+.green{
+    color: #3cf75b;
+}
+
+/* Navigation styles */
+.nav-container {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+nav a:hover {
+    color: #007bff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Banner styles */
+.banner {
+    background-color: #282732; 
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Button styles */
+button.primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button.primary:hover {
+    background-color: #0056b3;
+    transition: all 0.3s ease-in-out;
+}
+
+button.secondary {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid #3cf75b;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+button.secondary:hover {
+    background-color: #3cf75b;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Gallery styles */
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.gallery img {
+    width: 23%;
+    object-fit: cover;
+}
+
+.gallery-text {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 13px;
+}
+
+/* Footer styles */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #181720; 
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    margin-right: 20px;
+}
+
+.icon-container {
+    display: flex;
+}
+
+.footer-name{
+    color: #fff;
+    font-weight: bold;
+}
+
+footer a {
+    color: #fff;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #007bff;
+}
